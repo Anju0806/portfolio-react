@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App/App';
-import NavBar from './components/NavBar/NavBar'; 
-import Sidebar from './components/SideBar/SideBar';
+/* import NavBar from './components/NavBar/NavBar';   */
+import Sidebar from './components/SideBar/SideBar'; 
 import Footer from './components/Footer/Footer';
 import {
   BrowserRouter as Router,
@@ -11,29 +11,18 @@ import {
   Route,
 } from "react-router-dom";
 
-/* const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/test",
-    element: <div> testing</div>,
-  },
-]); */
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( 
   <React.StrictMode>
     <Router>
-      <NavBar/>  
-      <Sidebar/>
+    {/*  <NavBar />    */}
+     <Sidebar /> 
 
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/test" element={<div> testing</div>} />
+        {/* <Route path="/" element={<App />} />
+        <Route path="/test" element={<div> testing</div>} /> */}
       </Routes>
-      <Footer/>
+     {/*  <Footer/> */}
     </Router>
   </React.StrictMode>
 );

@@ -1,24 +1,29 @@
-import React from "react";
-import styled from 'styled-components'
+import React, { useState } from "react";
+import styled from 'styled-components';
 import { Link } from "react-router-dom";
-
+import './SideBar.css'; // Import the CSS file
 
 function Sidebar() {
-    return (
-        <div >
-
-            <div >
-                <Link to={{ pathname: "/" }} className="header-name-link">Anju Shaji</Link>
-            </div>
-            <div className="right-items">
-                <Link to={{ pathname: "/aboutme" }} className="header-about-link">About Me</Link>
-                <Link to={{ pathname: "/portfolio" }} className="header-portfolio-link">Portfolio</Link>
-                <Link to={{ pathname: "/contact" }} className="header-contact-link">Contact</Link>
-                <Link to={{ pathname: "/resume" }} className="header-resume-link">Resume</Link>
-            </div>
-
-        </div>
-    )
+   
+    return(
+       <div className="SidebarContainer">
+           <div className="right-items">
+               <div className="SidebarItem">
+                   <Link to={{ pathname: "/aboutme" }}>About Me</Link>
+               </div>
+               <div className="SidebarItem">
+                   <Link to={{ pathname: "/portfolio" }}>Portfolio</Link>
+               </div>
+               <div className="SidebarItem">
+                   <Link to={{ pathname: "/contact" }}>Contact</Link>
+               </div>
+               <div className="SidebarItem">
+                   <Link to={{ pathname: "/resume" }}>Resume</Link>
+               </div>
+           </div>
+       </div>
+   ); 
+   
 }
 
-export default Sidebar
+export default Sidebar;
