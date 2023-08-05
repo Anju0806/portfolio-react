@@ -1,6 +1,6 @@
 /* Styling the navbar inside the navbar */
 .Nav {
-    background-image: linear-gradient(to right, #9E768F, #9FA4C4);
+    background-image: linear-gradient(to right, #DB935C, #DB935C);
     overflow: hidden;
     max-height: 100rem;
 }

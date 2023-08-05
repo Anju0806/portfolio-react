@@ -1,0 +1,30 @@
+/* Styling the navbar inside the navbar */
+.Footer {
+    background-image: linear-gradient(to right, #9E768F, #9FA4C4);
+    overflow: hidden;
+    max-height: 100rem;
+    align-items: center;
+}
+
+/* Styling the links inside the navbar */
+.footer-items a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer-items a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media only screen and (max-width : 200px) {
+    .Footer {
+        float: left;
+    }
+}
