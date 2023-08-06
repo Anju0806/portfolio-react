@@ -3,25 +3,19 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
   const toggleNav = () => {
-    console.log("Toggle button clicked!"); // Add this line
-
-    setIsNavOpen(!isNavOpen);
-    console.log("isNavOpen:", isNavOpen); 
+    document.getElementById("nav-links").classList.toggle("open");
   };
 
   return (
     <div className="Nav">
-      
-        <button className="toggle-button" onClick={toggleNav}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </button>
-        <div className={`nav-links ${isNavOpen ? "open" : ""}`}>
-          <Link to={{ pathname: "/aboutme" }} >
+      <button className="toggle-button" onClick={toggleNav}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </button>
+      <div id="nav-links" className="nav-links">
+        <Link to={{ pathname: "/aboutme" }} >
             About Me
           </Link>
           <Link to={{ pathname: "/portfolio" }} >
@@ -33,10 +27,12 @@ function NavBar() {
           <Link to={{ pathname: "/resume" }}>
             Resume
           </Link>
-        </div>
-      
+      </div>
     </div>
   );
 }
 
+
 export default NavBar;
+
+
