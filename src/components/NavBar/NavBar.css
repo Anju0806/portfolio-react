@@ -7,8 +7,6 @@
     overflow: hidden;
   }
   
- 
-  
   /* Show the navbar only on mobile devices smaller than 768px */
   @media only screen and (max-width: 768px) {
     .Nav {
@@ -59,14 +57,11 @@
   
   .nav-links.open {
     display: block; /* Show when the 'open' class is applied */
-   
-
   }
 
    /* styling each item in the sidebar */
    .nav-links a{
-    margin-bottom: 50px;
-    float: left;
+    margin-bottom: 15px;
     display: block;
     color: white;
     text-align: center;
