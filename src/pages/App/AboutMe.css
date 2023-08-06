@@ -1,0 +1,78 @@
+
+.AllSection {
+  width: 100%;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.mt-2 {
+  margin-top:2px;
+}
+
+.text-color {
+  color:  #d37730!important;
+}
+
+/* Show the navbar only on mobile devices smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .AllSection {
+    display: block;
+    border-bottom: 1px solid #a0a3a5;
+   
+    display: flex!important;
+  }
+  .AboutMe{
+      padding-top: 10rem;
+      padding-bottom: 5rem!important;
+      padding-left: 1rem;
+      padding-right: 0.5rem;
+  }
+  .AboutMe h1 {
+      margin: auto;
+      font-size: 5rem;
+      line-height: 5.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #404245;  
+  }
+  .AboutMe h3{
+      color: #6f7278; 
+  }
+  .AboutMe p{
+      padding-top: 2rem;
+      color: #868e96;
+      line-height: 1.6;
+      font-weight: 700;
+      margin-bottom: 1rem;
+  }
+  /* AllSection.css */
+.list-inline {
+  
+list-style: none; /* Remove the bullet points from the list items */
+}
+
+.list-inline-item {
+  padding-top: 5rem;
+display: inline-block; /* Display the list items inline */
+
+}
+
+.icon-circle {
+width: 50px;
+height: 50px;
+background-color: #db935c;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 10px;
+}
+
+.icon {
+color: white;
+font-size: 30px;
+}
+}
+
+
