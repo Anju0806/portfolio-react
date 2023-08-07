@@ -59,15 +59,21 @@ display: inline-block; /* Display the list items inline */
 }
 
 .icon-circle {
-width: 50px;
-height: 50px;
-background-color: #db935c;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #db935c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Add a transition for smooth effect on hover */
 }
+
+.icon-circle:hover {
+  background-color: #cd5a02; /* Change the background color on hover */
+}
+
 
 .icon {
 color: white;
