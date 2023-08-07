@@ -4,17 +4,16 @@ import "./Experience.css";
 import ExperienceData from "./ExperienceData"; // Import the ExperienceData array
 
 function Experience() {
+    console.log(ExperienceData); 
     return (
-        <div id="ExperienceId" className="Experience">
-            {/* adding Experience with id ExperienceId */}
+        
+        <div id="ExperienceId" className="Experience">{/* adding Experience with id ExperienceId */}
             <h2>Experience</h2>
             {ExperienceData.map((app, index) => (
                 <div key={index} className="ExperienceData">
-                    
-                        <h3>{app.title} </h3>
-                        <h4>{app.timeFrame} </h4>
-                        <p>{app.data} </p>
-                    
+                    <h3>{app.title} </h3>
+                    <h4>{app.timeframe}</h4>
+                    <p>{app.data} </p>
                 </div>
             ))}
         </div>

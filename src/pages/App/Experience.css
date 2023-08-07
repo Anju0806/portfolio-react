@@ -46,8 +46,6 @@
   
   .ExperienceData h4 {
     /* Styles for the time frame */
-    font-weight: 700;
-    text-transform: uppercase;
     color: #343a40;
     margin-bottom: 1rem; /* Add some bottom margin for the time frame */
   }
@@ -55,7 +53,7 @@
   .ExperienceData p {
     /* Styles for the job description */
     padding-top: 1rem;
-    color: #868e96;
+    color: #5f646a;
     line-height: 1.6;
     font-weight: 400;
     margin-bottom: 1rem;
