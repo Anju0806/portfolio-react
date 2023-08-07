@@ -1,64 +1,69 @@
 .PortFolio {
-    /* Add styles for the portfolio section container */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .PortFolio h2 {
-    /* Styles for the section heading */
-    margin-left: 10px;
-    font-size: 3.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40;
-    margin-bottom: 3rem!important;
-  }
-  
-  .application {
-    /* Add styles for each application container */
-    width: calc(50% - 10px); /* Set the width to 50% of the container minus some margin */
-    margin-bottom: 20px; /* Add some margin between applications */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-  
-  .application h3 {
-    /* Add styles for the application title */
-    text-align: center; /* Center the title */
-    margin-bottom: 10px; /* Add spacing between title and image */
-    color: white; /* Set the color of the title text */
-    background-color: #db935c; /* Set the background color of the title container */
-    padding: 5px 10px; /* Add padding to the title container */
-    width: auto; /* Set the width of the title container to 100% of the parent container */
-    position: absolute; /* Set the position to absolute for positioning on top of the image */
-    bottom: 10px; /* Position the title container at the top of the image */
-    left: 0; /* Position the title container at the left of the image */
-    transform: translateY(-50%); /* Center the title container vertically with transform */
-    z-index: 1; /* Set a higher z-index to place the title container above the image */
-  }
+  /* Add styles for the portfolio section container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  .application h3:hover {
-    /* Apply the hover effect */
-    background-color: #cd5a02; /* Change the background color on hover */
-  }
-  
-  .application img {
-    /* Add styles for the application image */
-    width: 100%; /* Ensure the image takes the full width of the container */
-    max-width: 500px; /* Set a maximum width for the image */
-    height: 300px; /* Set a fixed height for all images */
-    object-fit: cover; /* Maintain aspect ratio and crop the image if needed */
-    z-index: 0; 
-    transition: transform 0.3s ease; /* Add a transition for smooth effect */
+.PortFolio h2 {
+  /* Styles for the section heading */
+  margin-left: 10px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  margin-bottom: 3rem!important;
+}
 
-  }
-  .application img:hover {
-    /* Apply the hover effect */
-    transform: scale(1.1); /* Increase the size of the image on hover */
-  }
-  
-  
-  
+.application {
+  /* Add styles for each application container */
+  width: calc(50% - 10px); /* Set the width to 50% of the container minus some margin */
+  margin-bottom: 20px; /* Add some margin between applications */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.application h3 {
+  /* Add styles for the application title */
+  text-align: center; /* Center the title */
+  margin-bottom: 10px; /* Add spacing between title and image */
+  color: white; /* Set the color of the title text */
+  background-color: #db935c; /* Set the background color of the title container */
+  padding: 5px 10px; /* Add padding to the title container */
+  width: auto; /* Set the width of the title container to 100% of the parent container */
+  position: absolute; /* Set the position to absolute for positioning on top of the image */
+  bottom: 10px; /* Position the title container at the bottom of the image */
+  left: 0; /* Position the title container at the left of the image */
+  transform: translateY(-50%); /* Center the title container vertically with transform */
+  z-index: 1; /* Set a higher z-index to place the title container above the image */
+}
+
+.application h3:hover {
+  /* Apply the hover effect to the title */
+  background-color: #cd5a02; /* Change the background color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.application img {
+  /* Add styles for the application image */
+  width: 100%; /* Ensure the image takes the full width of the container */
+  max-width: 500px; /* Set a maximum width for the image */
+  height: 300px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and crop the image if needed */
+  z-index: 0; 
+  transition: transform 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.application img:hover {
+  /* Apply the hover effect to the image */
+  transform: scale(1.1); /* Increase the size of the image on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.application a.github-link:hover {
+  /* Apply the hover effect to the GitHub link */
+  color: #cd5a02; /* Change the link color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}

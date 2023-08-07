@@ -15,11 +15,18 @@ function Sidebar() {
                    <Link to={{ pathname: "/recentworks" }}>Recent Works</Link>
                </div>
                <div className="SidebarItem">
+                   <Link to={{ pathname: "/resume" }}>Education</Link>
+               </div>
+               <div className="SidebarItem">
+                   <Link to={{ pathname: "/resume" }}>Experience</Link>
+               </div>
+               <div className="SidebarItem">
                    <Link to={{ pathname: "/resume" }}>Resume</Link>
                </div>
                <div className="SidebarItem">
                    <Link to={{ pathname: "/contact" }}>Contact</Link>
-               </div>  
+               </div>
+                 
            </div>
        </div>
    ); 

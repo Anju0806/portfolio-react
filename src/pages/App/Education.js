@@ -1,6 +1,7 @@
 // Resume.js
 import React from 'react';
 import "./Education.css";
+import ProjectData from "./ProjectData"; // Import the ProjectData array
 
 function Resume() {
     return (

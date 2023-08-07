@@ -12,8 +12,8 @@ function AllSection() {
       <left>
         <AboutMe /> {/* Render the AboutMe component here */}
         <PortFolio /> {/* Render the PotFolio component here */}
-        <Education /> {/* Render the Education component here */}
         <Experience /> {/* Render the Experience component here */}
+       {/*  <Education /> */} {/* Render the Education component here */}
         <Resume /> {/* Render the Resume component here */}
       </left>
     </div>

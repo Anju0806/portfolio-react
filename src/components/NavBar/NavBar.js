@@ -21,6 +21,12 @@ function NavBar() {
           <Link to={{ pathname: "/recentworks" }} >
           Recent Works
           </Link>
+          <Link to={{ pathname: "/Education" }}>
+            Education
+          </Link>
+          <Link to={{ pathname: "/Experience" }}>
+            Experience
+          </Link>
           <Link to={{ pathname: "/resume" }}>
             Resume
           </Link>
