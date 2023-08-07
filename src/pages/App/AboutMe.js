@@ -12,7 +12,7 @@ function AboutMe() {
           Shaji
         </span>
       </h1>
-      <h3 className="AddressSection mb-5">398A FLINDERS STREET NOLLAMARA, WA 6061 · (+61) 451-022-795 · <span className="text-color">anjualfino@gmail.com</span></h3>
+      <h3 className="AddressSection mb-5">398A FLINDERS STREET NOLLAMARA, WA 6061 · (+61) 451-022-795 · <span className="text-color"><a href="mailto:anjualfino@example.com">anjualfino@gmail.com</a></span></h3>
       <p className="AboutMeSection">I am a software developer who offers versatility and strong work ethics with expertise in all aspects of the software development life cycle, including requirement analysis, design, development, testing, deployment, and production support.</p>
       <center>
         {/* adding icons from fontawesome -github and linkedIn */}

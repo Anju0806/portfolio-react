@@ -39,6 +39,13 @@
   .AboutMe h3{
       color: #6f7278; 
   }
+  .AboutMe h3 a{
+    color: #6f7278;
+    text-decoration:none;
+}
+.AboutMe h3 a:hover {
+  color: #cd5a02; /* Change the background color on hover */
+}
   .AboutMe p{
       padding-top: 2rem;
       color: #787f87;
