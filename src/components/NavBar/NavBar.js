@@ -18,8 +18,8 @@ function NavBar() {
         <Link to={{ pathname: "/aboutme" }} >
             About Me
           </Link>
-          <Link to={{ pathname: "/portfolio" }} >
-            Portfolio
+          <Link to={{ pathname: "/recentworks" }} >
+          Recent Works
           </Link>
           <Link to={{ pathname: "/contact" }} >
             Contact
