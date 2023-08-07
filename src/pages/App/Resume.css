@@ -1,0 +1,32 @@
+/* Resume.css */
+.Resume {
+    margin-left: 15px;
+    /* Center the content horizontally */
+    margin-top: 20px;
+    /* Add some top margin */
+    margin-bottom: 3rem !important;
+}
+.Resume h2 {
+    /* Styles for the section heading */
+    margin-left: 10px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    margin-bottom: 3rem !important;
+}
+.Resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db935c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition for the background color */
+}
+.Resume a:hover {
+    background-color: #cd5a02;
+    /* Change the background color on hover */
+}
