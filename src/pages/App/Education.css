@@ -36,7 +36,7 @@
     background-color: #db935c;
     padding: 5px 10px;
     /* width: auto; */
-    position: absolute;
+
     /* Styles for the job title */
     font-weight: 700;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
   
   .EducationData p {
     /* Styles for the job description */
-    padding-top: 1rem;
+    padding-top: .0rem;
     color: #5f646a;
     line-height: 1.6;
     font-weight: 400;

@@ -36,23 +36,25 @@
     background-color: #db935c;
     padding: 5px 10px;
     /* width: auto; */
-    position: absolute;
+    
     /* Styles for the job title */
     font-weight: 700;
     text-transform: uppercase;
     color: #eceff1;
+    
     /* Add some bottom margin for the job title */
   }
   
   .ExperienceData h4 {
     /* Styles for the time frame */
-    color: #343a40;
-    margin-bottom: 1rem; /* Add some bottom margin for the time frame */
+    
+    color: #25282a;
+    margin-bottom: 1rem;  /* Add some bottom margin for the time frame */
   }
   
   .ExperienceData p {
     /* Styles for the job description */
-    padding-top: 1rem;
+    padding-top: .0rem;
     color: #5f646a;
     line-height: 1.6;
     font-weight: 400;
