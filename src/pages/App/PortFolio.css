@@ -81,6 +81,15 @@
     margin-right: 0; /* Remove the margin between applications */
     margin-bottom: 20px; /* Add some margin between rows */
   }
+
+  .application img {
+    
+      max-width: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+   
+  }
+  
 }
 
 
