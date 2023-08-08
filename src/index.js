@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NavBar from './components/NavBar/NavBar';   
-import Sidebar from './components/SideBar/SideBar'; 
-import AllSection from './pages/App/AllSection';
+import NavBar from './components/NavBar/NavBar';
+import Sidebar from './components/SideBar/SideBar';
+import AllSection from './pages/AllSection/AllSection';
 /* import Footer from './components/Footer/Footer'; */
-import App from './pages/App/App';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,16 +13,15 @@ import {
 } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( 
+root.render(
   <React.StrictMode>
     <Router>
-     <NavBar />  
-     <Sidebar /> 
+      <NavBar />
+      <Sidebar />
       <Routes>
-        {/* <Route path="/" element={<App />}/> */}
-        <Route path="/" element={<AllSection />}/> 
+        <Route path="/" element={<AllSection />} />
       </Routes>
-     {/*  <Footer/> */}
+      {/*  <Footer/> */}
     </Router>
   </React.StrictMode>
 );

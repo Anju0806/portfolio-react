@@ -1,10 +1,10 @@
 // ProjectData.js
-import techblog from './images/techblog.webp';
-import touch from './images/touch.webp';
-import currency from './images/currency.jpg';
-import bookimg from './images/bookimg.webp';
-import vertibuildings from './images/vertibuildings.jpeg';
-import weather from './images/weather.jpg';
+import techblog from '../images/techblog.webp';
+import touch from '../images/touch.webp';
+import currency from '../images/currency.jpg';
+import bookimg from '../images/bookimg.webp';
+import vertibuildings from '../images/vertibuildings.jpeg';
+import weather from '../images/weather.jpg';
 
 const ProjectData = [
     {

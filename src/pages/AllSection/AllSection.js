@@ -1,11 +1,11 @@
 // AllSection.js
 import React from 'react';
 import './AllSection.css';
-import AboutMe from './AboutMe'; // Import the AboutMe component
-import PortFolio from './PortFolio'; // Import the PortFolio component
-import Education from './Education'; // Import the Education component
-import Experience from './Experience'; // Import the Experience component
-import Resume from './Resume'; // Import the Resume component
+import AboutMe from '../AboutMe/AboutMe'; // Import the AboutMe component
+import PortFolio from '../RecentWorks/PortFolio'; // Import the PortFolio component
+import Education from '../Education/Education'; // Import the Education component
+import Experience from '../Experience/Experience'; // Import the Experience component
+import Resume from '../Resume/Resume'; // Import the Resume component
 function AllSection() {
   return (
     <div className="AllSection p-0 mt-2 ">

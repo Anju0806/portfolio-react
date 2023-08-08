@@ -8,6 +8,7 @@
 
 .PortFolio h2 {
   /* Styles for the section heading */
+  width: 100%;
   margin-left: 10px;
   font-size: 3.5rem;
   font-weight: 700;
@@ -18,26 +19,29 @@
 
 .application {
   /* Add styles for each application container */
-  width: calc(50% - 10px); /* Set the width to 50% of the container minus some margin */
-  margin-bottom: 20px; /* Add some margin between applications */
-  display: flex;
+/*   width: calc(50% - 10px); 
+  margin-bottom: 20px; 
   flex-direction: column;
   align-items: center;
+  position: relative; */
+  width: calc(50% - 10px); 
   position: relative;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .application h3 {
   /* Add styles for the application title */
   text-align: center; /* Center the title */
-  margin-bottom: 10px; /* Add spacing between title and image */
+  margin-bottom: 10px; 
   color: white; /* Set the color of the title text */
   background-color: #db935c; /* Set the background color of the title container */
-  padding: 5px 10px; /* Add padding to the title container */
-  width: auto; /* Set the width of the title container to 100% of the parent container */
+  padding: 5px 10px; 
+  width: auto; 
   position: absolute; /* Set the position to absolute for positioning on top of the image */
   bottom: 10px; /* Position the title container at the bottom of the image */
-  left: 0; /* Position the title container at the left of the image */
-  transform: translateY(-50%); /* Center the title container vertically with transform */
+  left: 0; 
+  transform: translateY(-50%); 
   z-index: 1; /* Set a higher z-index to place the title container above the image */
 }
 
@@ -75,21 +79,15 @@
     flex-wrap: wrap; /* Allow items to wrap to a new row */
     justify-content: space-between; /* Distribute items evenly with space between */
   }
-
   .application {
-    width: calc(60% - 10px); /* Set the width to 50% of the container minus some margin */
+    width: calc(50% - 10px); /* Set the width to 50% of the container minus some margin */
     margin-right: 0; /* Remove the margin between applications */
     margin-bottom: 20px; /* Add some margin between rows */
   }
-
   .application img {
-    
       max-width: 100%;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-   
-  }
-  
+  } 
 }
 
 

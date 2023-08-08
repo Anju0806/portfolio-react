@@ -1,6 +1,6 @@
 // Resume.js
 import React from 'react';
-import resumepdf from './images/AnjuShaji-Resume.pdf';
+import resumepdf from '../images/AnjuShaji-Resume.pdf';
 import "./Resume.css";
 
 function Resume() {
