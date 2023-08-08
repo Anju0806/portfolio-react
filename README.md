@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Portfolio made with React
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! This website showcases my skills, projects, and experience as a software developer. It is built using React, a popular JavaScript library for building user interfaces.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- About Me: A shot description about me, my background, and my skills as a software developer.
 
-### `npm start`
+- Portfolio: View a selection of my recent projects with links to the deployed applications and their corresponding GitHub repositories.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Experience: Explore my work history and experience as a software developer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Education: See details about my educational background and qualifications.
 
-### `npm test`
+- Resume: Download my resume to learn more about my skills and experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React: A JavaScript library for building user interfaces.
+- React Router: For handling navigation and routing within the website.
+- React Icons: For using icons in the website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install the TechBytes application, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository: git clone https://github.com/Anju0806/portfolio-react.git
+2. Open a terminal and navigate to the project's root directory.
+3. Run the command to install the required dependencies.
 
-### `npm run eject`
+        npm install
+4. To create a production build, use        
+        
+        npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Run the command to view portfolio-react in the browser on
+http://localhost:3000.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        npm run start 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT .
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## The URL of the deployed application(Github)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! If you would like to contribute to this project, please follow these guidelines:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch for your contribution.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request explaining your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Screenshots
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you have any questions about the repo, please open an issue or contact me at anjualfino@gmail.com. 
