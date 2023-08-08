@@ -1,10 +1,16 @@
+
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
   const toggleNav = () => {
-    document.getElementById("nav-links").classList.toggle("open");
+    setIsNavOpen(!isNavOpen);
+  };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
   };
 
   return (
@@ -14,31 +20,28 @@ function NavBar() {
         <div className="bar"></div>
         <div className="bar"></div>
       </button>
-      <div id="nav-links" className="nav-links">
-        <Link to={{ pathname: "/aboutme" }} >
-            About Me
-          </Link>
-          <Link to={{ pathname: "/recentworks" }} >
+      <div id="nav-links" className={`nav-links ${isNavOpen ? "open" : ""}`}>
+        <a href="#AboutMeId" className="nav-link" onClick={closeNav}>
+          About Me
+        </a>
+        <a href="#PortFolioId" className="nav-link" onClick={closeNav}>
           Recent Works
-          </Link>
-          <Link to={{ pathname: "/Education" }}>
-            Education
-          </Link>
-          <Link to={{ pathname: "/Experience" }}>
-            Experience
-          </Link>
-          <Link to={{ pathname: "/resume" }}>
-            Resume
-          </Link>
-          <Link to={{ pathname: "/contact" }} >
-            Contact
-          </Link>
+        </a>
+        <a href="#ExperienceId"  className="nav-link" onClick={closeNav}>
+          Experience
+        </a>
+        <a  href ="#EducationId" className="nav-link" onClick={closeNav}> 
+          Education 
+        </a>
+        <a href ="#ResumeId" className="nav-link" onClick={closeNav}>
+          Resume
+        </a>
+        <a href ="#ContactId" className="nav-link" onClick={closeNav}>
+          Contact
+        </a>
       </div>
     </div>
   );
 }
 
-
 export default NavBar;
-
-
