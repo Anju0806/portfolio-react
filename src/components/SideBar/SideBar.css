@@ -1,7 +1,7 @@
 /* SideBar.css */
 
   /* styling sidebar container*/
-.SidebarItem{
+.SidebarContainer{
     position: fixed;
     top: 0;
     left: 0;
@@ -17,16 +17,15 @@
     }
   }
   
- 
   /* styling each item in the sidebar */
-  .SidebarItem a{
+  .SidebarContainer a{
    
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;

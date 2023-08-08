@@ -16,6 +16,7 @@
     margin-bottom: 3rem !important;
 }
 .Resume a {
+    margin-bottom: 35rem;/* adding some extra space end of resume link */
     display: inline-block;
     padding: 10px 20px;
     background-color: #db935c;
