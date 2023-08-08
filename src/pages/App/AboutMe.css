@@ -1,17 +1,10 @@
 
-.AllSection {
-  width: 100%;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  
-}
-.mt-2 {
-  margin-top:2px;
-}
-
 .text-color {
   color:  #d37730!important;
+}
+/* Show the navbar only on mobile devices smaller than 768px */
+@media only screen and (min-width: 768px) {
+
 }
 
 /* Show the navbar only on mobile devices smaller than 768px */

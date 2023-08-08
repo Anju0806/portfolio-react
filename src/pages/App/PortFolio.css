@@ -67,3 +67,7 @@
   color: #cd5a02; /* Change the link color on hover */
   cursor: pointer; /* Show pointer cursor on hover */
 }
+
+/* Show the sidebar only on bigger devices greater than 768px */
+@media only screen and (min-width: 780px) {
+}

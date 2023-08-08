@@ -8,7 +8,7 @@ import Experience from './Experience'; // Import the Experience component
 import Resume from './Resume'; // Import the Resume component
 function AllSection() {
   return (
-    <div className="AllSection p-0 mt-2">
+    <div className="AllSection p-0 mt-2 ">
       <left>
         <AboutMe /> {/* Render the AboutMe component here */}
         <PortFolio /> {/* Render the PotFolio component here */}
