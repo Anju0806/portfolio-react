@@ -57,7 +57,6 @@ function Sidebar() {
                <div className="SidebarItem">
                <a href="#EducationId" >Education</a>
                </div>
-               
                <div className="SidebarItem">
                <a href="#ResumeId" >Resume</a>
                </div>

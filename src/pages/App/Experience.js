@@ -4,7 +4,6 @@ import "./Experience.css";
 import ExperienceData from "./ExperienceData"; // Import the ExperienceData array
 
 function Experience() {
-    console.log(ExperienceData); 
     return (
         
         <div id="ExperienceId" className="Experience">{/* adding Experience with id ExperienceId */}

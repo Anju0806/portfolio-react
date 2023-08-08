@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: 15px;
 }
 
 .PortFolio h2 {
@@ -69,5 +70,18 @@
 }
 
 /* Show the sidebar only on bigger devices greater than 768px */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
+  .PortFolio {
+    flex-wrap: wrap; /* Allow items to wrap to a new row */
+    justify-content: space-between; /* Distribute items evenly with space between */
+  }
+
+  .application {
+    width: calc(60% - 10px); /* Set the width to 50% of the container minus some margin */
+    margin-right: 0; /* Remove the margin between applications */
+    margin-bottom: 20px; /* Add some margin between rows */
+  }
 }
+
+
+

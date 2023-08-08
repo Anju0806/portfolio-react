@@ -1,7 +1,6 @@
 .AllSection {
-  width: 100%;
+  width: auto;
   padding-left: 15px;
-  margin-right: auto;
   margin-left: auto;
 
 }
@@ -19,7 +18,7 @@
   .AllSection {
     background-color: #f2f2f2;
     position: relative;
-    margin-left: 15rem;
+    margin-left: 150px;
     
 
   }
