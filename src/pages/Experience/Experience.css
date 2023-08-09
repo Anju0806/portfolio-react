@@ -21,8 +21,8 @@
   
   .Experience .ExperienceData {
     /* Add styles for each application container */
-    width: 100%; /* Set the width to 100% of the container */
-    padding: 20px; /* Add padding around the application content */
+    width: 100%;
+    padding: 20px; 
     border: 1px solid #e9ecef; /* Add a border around the application */
     margin-bottom: 20px; /* Add some margin between applications */
     display: flex;
@@ -33,7 +33,7 @@
     
     margin-bottom: 10px;
     /* color: white; */
-    background-color: #db935c;
+    background-color: #7395AE;
     padding: 5px 10px;
     /* width: auto; */
     

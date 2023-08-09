@@ -35,8 +35,8 @@
   text-align: center; /* Center the title */
   margin-bottom: 10px; 
   color: white; /* Set the color of the title text */
-  background-color: #db935c; /* Set the background color of the title container */
-  padding: 5px 10px; 
+  background-color: #54748a; /* Set the background color of the title container */
+  padding: 8px 10px; 
   width: auto; 
   position: absolute; /* Set the position to absolute for positioning on top of the image */
   bottom: 10px; /* Position the title container at the bottom of the image */
@@ -47,7 +47,7 @@
 
 .application h3:hover {
   /* Apply the hover effect to the title */
-  background-color: #cd5a02; /* Change the background color on hover */
+  background-color: #385267; /* Change the background color on hover */
   cursor: pointer; /* Show pointer cursor on hover */
 }
 

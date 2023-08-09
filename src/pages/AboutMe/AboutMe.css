@@ -1,5 +1,7 @@
 .text-color {
-  color: #d37730 !important;
+  
+  color: #557A95 !important;
+  
 }
  /* Adding aboutme section styling */
 .AboutMe {
@@ -30,12 +32,12 @@
 }
 
 .AboutMe h3 a {
-  color: #db935c;
+  color: #7395AE;
   text-decoration: none;
 }
 
 .AboutMe h3 a:hover {
-  color: #cd5a02;  /* Change the background color on hover */
+  color: #486c86;  /* Change the background color on hover */
 }
 
 .list-inline {
@@ -62,7 +64,7 @@
 }
 
 .icon-circle:hover {
-  background-color: #cd5a02;
+  background-color: #5783a2;
   /* Change the background color on hover */
 }
  

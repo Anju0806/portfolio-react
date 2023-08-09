@@ -19,7 +19,7 @@
     margin-bottom: 35rem;/* adding some extra space end of resume link */
     display: inline-block;
     padding: 10px 20px;
-    background-color: #db935c;
+    background-color: #7395AE;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -28,6 +28,6 @@
     /* Add a smooth transition for the background color */
 }
 .Resume a:hover {
-    background-color: #cd5a02;
+    background-color: #557A95;
     /* Change the background color on hover */
 }

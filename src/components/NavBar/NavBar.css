@@ -3,7 +3,8 @@
     /* Hide the navbar by default */
     display: none;
     /* Add other styles for the navbar */
-    background-image: linear-gradient(to right, #DB935C, #DB935C);
+/*     background-image: linear-gradient(to right, #DB935C, #DB935C); */
+    background-image: linear-gradient(to right, #7395AE, #7395AE);
     overflow: hidden;
   }
   
@@ -26,7 +27,8 @@
   .toggle-button {
     display: block;
     position: relative; /* Set the toggle button to be a container for the bars */
-    background-color: #d37730;
+    /* background-color: #d37730; */
+    background-color:#486f8a;
     border: none;
     font-size: 0; /* Remove any whitespace around the bars */
     cursor: pointer;
@@ -47,7 +49,7 @@
   
   /* Styling the toggle button on hover */
   .toggle-button:hover {
-    background-color: #cd5a02;
+    background-color: #2b4557;
     color: black;
   }
   
