@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Adding styles for rendering all section */
+.AllSection {
+  width: auto;
+  padding-left: 15px;
+  margin-left: auto;
+}
+
+/* Styling on bigger devices greater than 768px */
+@media only screen and (min-width: 780px) {
+  .AllSection {
+    background-color: #f2f2f2;
+    position: relative;
+    margin-left: 170px;
+  }
+}
+
+/* Styling on bigger devices smaller than 768px */
+@media only screen and (max-width: 780px) {
+  .AllSection {
+    display: block;
+    border-bottom: 1px solid #a0a3a5;
+    display: flex !important;
+  }
+}

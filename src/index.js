@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import NavBar from './components/NavBar/NavBar';
 import Sidebar from './components/SideBar/SideBar';
-import './pages/AllSection/AllSection.css';
 import AboutMe from './pages/AboutMe/AboutMe'; // Import the AboutMe component
 import PortFolio from './pages/RecentWorks/PortFolio'; // Import the PortFolio component
 import Education from './pages/Education/Education'; // Import the Education component
