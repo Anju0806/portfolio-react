@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.97dada59.css",
-    "main.js": "/portfolio-react/static/js/main.d37c2029.js",
+    "main.css": "/portfolio-react/static/css/main.1779f3a1.css",
+    "main.js": "/portfolio-react/static/js/main.cb5d40ab.js",
     "static/media/techblog.webp": "/portfolio-react/static/media/techblog.2d4e83b327387ef2c106.webp",
     "static/media/weather.jpg": "/portfolio-react/static/media/weather.021d0c7a940b4032f336.jpg",
     "static/media/touch.webp": "/portfolio-react/static/media/touch.1a75edf5f568201f6a70.webp",
@@ -10,11 +10,11 @@
     "static/media/profile-image.jpeg": "/portfolio-react/static/media/profile-image.cd9139acee1a31b2640d.jpeg",
     "static/media/bookimg.webp": "/portfolio-react/static/media/bookimg.0c946acfe42c23a5fbf0.webp",
     "index.html": "/portfolio-react/index.html",
-    "main.97dada59.css.map": "/portfolio-react/static/css/main.97dada59.css.map",
-    "main.d37c2029.js.map": "/portfolio-react/static/js/main.d37c2029.js.map"
+    "main.1779f3a1.css.map": "/portfolio-react/static/css/main.1779f3a1.css.map",
+    "main.cb5d40ab.js.map": "/portfolio-react/static/js/main.cb5d40ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.97dada59.css",
-    "static/js/main.d37c2029.js"
+    "static/css/main.1779f3a1.css",
+    "static/js/main.cb5d40ab.js"
   ]
 }
