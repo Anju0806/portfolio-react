@@ -21,23 +21,20 @@ function NavBar() {
         <div className="bar"></div>
       </button>
       <div id="nav-links" className={`nav-links ${isNavOpen ? "open" : ""}`}>
-        <a href="#AboutMeId" className="nav-link" onClick={closeNav}>
+        <a href="/AboutMeId" className="nav-link" onClick={closeNav}>
           About Me
         </a>
-        <a href="#PortFolioId" className="nav-link" onClick={closeNav}>
+        <a href="/PortFolioId" className="nav-link" onClick={closeNav}>
           Recent Works
         </a>
-        <a href="#ExperienceId"  className="nav-link" onClick={closeNav}>
+        <a href="/ExperienceId"  className="nav-link" onClick={closeNav}>
           Experience
         </a>
-        <a  href ="#EducationId" className="nav-link" onClick={closeNav}> 
+        <a  href ="/EducationId" className="nav-link" onClick={closeNav}> 
           Education 
         </a>
-        <a href ="#ResumeId" className="nav-link" onClick={closeNav}>
+        <a href ="/ResumeId" className="nav-link" onClick={closeNav}>
           Resume
-        </a>
-        <a href ="#ContactId" className="nav-link" onClick={closeNav}>
-          Contact
         </a>
       </div>
     </div>

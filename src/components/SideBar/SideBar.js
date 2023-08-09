@@ -10,11 +10,11 @@ function Sidebar() {
             <div className="ProfileImageContainer">
                 <img src={profileImage} alt="Profile" className="ProfileImage" />
             </div>
-            <a href="#AboutMeId">About Me</a>
-            <a href="#PortFolioId">Recent Works</a>
-            <a href="#ExperienceId" >Experience</a>
-            <a href="#EducationId" >Education</a>
-            <a href="#ResumeId" >Resume</a>
+            <a href="/AboutMeId">About Me</a>
+            <a href="/PortFolioId">Recent Works</a>
+            <a href="/ExperienceId" >Experience</a>
+            <a href="/EducationId" >Education</a>
+            <a href="/ResumeId" >Resume</a>
         </div>
     );
 }
