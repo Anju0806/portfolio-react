@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.97dada59.css",
+    "main.js": "/portfolio-react/static/js/main.d37c2029.js",
+    "static/media/techblog.webp": "/portfolio-react/static/media/techblog.2d4e83b327387ef2c106.webp",
+    "static/media/weather.jpg": "/portfolio-react/static/media/weather.021d0c7a940b4032f336.jpg",
+    "static/media/touch.webp": "/portfolio-react/static/media/touch.1a75edf5f568201f6a70.webp",
+    "static/media/currency.jpg": "/portfolio-react/static/media/currency.c799a344ed330fa836af.jpg",
+    "static/media/AnjuShaji-Resume.pdf": "/portfolio-react/static/media/AnjuShaji-Resume.b421db8636dd263cc389.pdf",
+    "static/media/profile-image.jpeg": "/portfolio-react/static/media/profile-image.cd9139acee1a31b2640d.jpeg",
+    "static/media/bookimg.webp": "/portfolio-react/static/media/bookimg.0c946acfe42c23a5fbf0.webp",
+    "index.html": "/portfolio-react/index.html",
+    "main.97dada59.css.map": "/portfolio-react/static/css/main.97dada59.css.map",
+    "main.d37c2029.js.map": "/portfolio-react/static/js/main.d37c2029.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97dada59.css",
+    "static/js/main.d37c2029.js"
+  ]
+}
