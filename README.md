@@ -59,6 +59,11 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## Screenshots
 
+![Screenshot 2023-08-09 at 10 46 27 am](https://github.com/Anju0806/portfolio-react/assets/126565826/d33fbbf7-4f3b-4caf-8619-ebd885ef66e4)
+![Screenshot 2023-08-09 at 10 47 26 am](https://github.com/Anju0806/portfolio-react/assets/126565826/28a5b990-4709-4f45-a9c9-4f3cc2e76d1e)
+![Screenshot 2023-08-09 at 10 47 52 am](https://github.com/Anju0806/portfolio-react/assets/126565826/cce00750-dd68-4ef7-8eb1-a0b7ca90189a)
+![Screenshot 2023-08-09 at 10 48 09 am](https://github.com/Anju0806/portfolio-react/assets/126565826/0594ae0e-8df3-4a62-adb0-774720589ef9)
 
 ## Questions
+
 If you have any questions about the repo, please open an issue or contact me at anjualfino@gmail.com. 
