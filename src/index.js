@@ -25,7 +25,7 @@ root.render(
       <NavBar />
       <Sidebar />
       <Routes>
-        <Route path="/" element={<div className="AllSection p-0 mt-2 ">
+        <Route path="/portfolio-react" element={<div className="AllSection p-0 mt-2 ">
           <left>
             <AboutMe /> {/* Render the AboutMe component here */}
             <PortFolio /> {/* Render the PotFolio component here */}
