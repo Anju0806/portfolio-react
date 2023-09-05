@@ -24,17 +24,23 @@ root.render(
       <NavBar />
       <Sidebar />
       <Routes>
-        <Route path="/portfolio-react" element={<div className="AllSection p-0 mt-2 ">
+        {/* <Route path="/portfolio-react" element={<div className="AllSection p-0 mt-2 ">
           <left>
-            <AboutMe /> {/* Render the AboutMe component here */}
-            <PortFolio /> {/* Render the PotFolio component here */}
-            <Experience /> {/* Render the Experience component here */}
-            <Education /> {/* Render the Education component here */}
-            <Resume /> {/* Render the Resume component here */}
+            <AboutMe /> 
+            <PortFolio /> 
+            <Experience /> 
+            <Education /> 
+            <Resume /> 
           </left>
-        </div>} />
+        </div>} /> */}
+        <Route path='/AboutMe' element={<AboutMe />} /> 
+        <Route path='/PortFolio' element={<PortFolio />} /> 
+        <Route path='/Experience' element={<Experience />} /> 
+        <Route path='/Education' element={<Education />} /> 
+        <Route path='/Resume' element={<Resume />} /> 
+
       </Routes>
-      {/*  <Footer/> */}
+       {/*  <Footer/> */}
     </Router>
   </React.StrictMode>
 );

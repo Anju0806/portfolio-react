@@ -39,10 +39,10 @@ const ProjectData = [
       githubLink: "https://github.com/Anju0806/weather-dashboard.git",
     },
     {
-      title: "Final Project - add later ",
+      title: "Epic Events ",
       image: vertibuildings,
       deployedLink: "URL_TO_DEPLOYED_APP_1",
-      githubLink: "URL_TO_GITHUB_REPO_1",
+      githubLink: "https://github.com/Anju0806/EpicEvents.git",
     },
   ];
   
